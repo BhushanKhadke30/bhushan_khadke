@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+    margin: 16px 0px;
+    height: 92vh;
+    overflow-y: scroll;
+}
+
+
+.home ul li {
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding-top: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+.liabrary {
+    min-height: 70vh;
+    position: relative;
+}
+
+.heading img {
+    width: 20px;
+}
+
+.footer {
+    display: flex;
+    font-size: 9px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+    padding: 34px 0;
+}
+
+.footer a {
+    color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    height: 70px;
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.spotifyplaylists {
+    padding: 16px;
+}
+
+.cardcontainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+
+}
+
+.card {
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    margin: 8px;
+    position: relative;
+}
+
+.card>* {
+    padding-top: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.play {
+    position: absolute;
+    top: 168px;
+    right: 16px;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+.play:hover {
+    position: absolute;
+    top: 148px;
+    right: 16px;
+    opacity: 1;
+
+}
+
+.buttons >*{
+    margin: 0px 20px;
+}
+.signupbtn{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(34, 34, 34);
+    color: rgb(156, 148, 148);
+}
+.signupbtn:hover{
+    font-size: 17px;
+
+}
+.loginbtn{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    width: 95px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.loginbtn:hover{
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 17px;
+}
