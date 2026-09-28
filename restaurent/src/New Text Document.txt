@@ -1,0 +1,9 @@
+npm i react-router-dom
+npm i create vite@latest
+npm i tailwind 
+
+Extensions:-
+tailwind intellsense
+ES7 and ES7+
+
+remove app.css
